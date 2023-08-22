@@ -30,30 +30,36 @@ docker
 
 ### db
 
-```cd db
+```
+cd db
 
 docker build . -t db
 
-docker run -p 5432:5432 testdb```
+docker run -p 5432:5432 testdb
+```
 
 
 ### api (Express API)
 
-```cd api
+```
+cd api
 
 npm install
 
-npm start```
+npm start
+```
 
   
 
 ### app (nextjs app)
 
-```cd app
+```
+cd app
 
 npm install
 
-npm run dev```
+npm run dev
+```
 
   
 
